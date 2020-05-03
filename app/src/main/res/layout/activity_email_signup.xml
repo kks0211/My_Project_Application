@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EmailSignupActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OutStagram"
+        android:textColor="#777777"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="60dp"
+        android:padding="6dp"
+        android:layout_marginBottom="100dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/username_inputbox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFEB3B"
+        android:hint="아이디를 입력해 주세요."
+        android:layout_marginBottom="30dp"
+        android:textColorHint="@color/design_default_color_on_secondary"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+        <EditText
+            android:id="@+id/password1_inputbox"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FFEB3B"
+            android:hint="비밀번호를 입력해주세요."
+            android:textColorHint="@color/design_default_color_on_secondary"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/password2_inputbox"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FFEB3B"
+            android:hint="비밀번호를 확인해 주세요."
+            android:textColorHint="@color/design_default_color_on_secondary"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="32dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="32dp"
+        android:paddingBottom="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:text="가입하기"
+        />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="32dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="32dp"
+        android:paddingBottom="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:text="로그인"
+        />
+
+</LinearLayout>
